@@ -33,8 +33,8 @@ vim.keymap.set("n", "<leader>lp", ":Lazy<CR>", { desc = "Open lazy.nvim", })
 ```
 
 `vim.keymap.set()` accepts 4 arguments:
-1. The mode the keybind is usable in (see [Modes])
-2. The keybind to press, can include control characters [Control characters]
+1. The mode the keybind is usable in (see [[keybinds#Modes]])
+2. The keybind to press, can include control characters [[keybinds#Control characters]]
 3. The command to run on the press of the keybind.
 4. A table of other parameters (Such as the keybind description...)
 
